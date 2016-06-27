@@ -1,0 +1,7 @@
+E:\牛腩新闻发布系统\DAL\bin\Debug\DAL.dll
+E:\牛腩新闻发布系统\DAL\bin\Debug\DAL.pdb
+E:\牛腩新闻发布系统\DAL\obj\Debug\ResolveAssemblyReference.cache
+E:\牛腩新闻发布系统\DAL\obj\Debug\DAL.dll
+E:\牛腩新闻发布系统\DAL\obj\Debug\DAL.pdb
+E:\牛腩新闻发布系统\DAL\bin\Debug\Model.dll
+E:\牛腩新闻发布系统\DAL\bin\Debug\Model.pdb

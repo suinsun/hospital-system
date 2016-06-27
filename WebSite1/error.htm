@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>不好意思出错啦~~~</title>
+    <link href="css/login.css" rel="stylesheet" type="text/css" />
+    <script language ="javascript " type="text/javascript" >
+        var i = 5;
+        var intervalid;
+        intervalid=setInterval("fun()", 1000);
+        function fun() {
+ document.getElementById("nes").innerHTML = i;
+            if (i == 0) {
+                window.location.href = "Default.aspx";
+                clearInterval(intervalid);}
+           
+            i--;
+        }
+    </script>
+</head>
+<body>
+    <div id="errorfrm" class="round1">
+        <h3>
+            出错啦~~~</h3>
+        <div id="error">
+            <img src="images/error.gif"  alt="图片显示失败"/>
+            <p>
+                系统出错，请联系管理员</p>
+            <p>
+                将在<span id="nes">5</span>秒钟后返回首页</p>
+        </div>
+        <div id="footer">
+            版权所有 &copy;<a href="http://niunan.javaeve.com" target="_blank">酥梨</a> &amp;<a href="http://www.tg029.com"
+                target="_blank">众志网 </a>
+        </div>
+    </div>
+</body>
+</html>

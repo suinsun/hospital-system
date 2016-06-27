@@ -1,0 +1,81 @@
+﻿body
+{
+    font-size: 14px;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*设置超链接的默认值*/
+a:link, a:visited
+{
+    /*鼠标未移上去的超链接样式*/ /*超链接访问后的样式*/
+    color: #000;
+    text-decoration: none;
+}
+a:hover
+{
+    /*鼠标移到超链接上的样式*/
+    color: #00f;
+    text-decoration: underline;
+}
+
+.round1
+{
+    width: 520px;
+    background-image: url("../images/round1_middle.gif");
+    background-position: center;
+    background-repeat: repeat-y;
+    margin: auto;
+    margin-top: 150px;
+}
+.round1 h3
+{
+    background-image: url("../images/round1_top.gif");
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+}
+.round1 #footer
+{
+    background-image: url("../images/round1_button.gif");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 20px 100px;
+    padding-left: 250px;
+}
+#loginfrm #login img
+{
+    padding-left: 30px;
+    padding-right: 80px;
+    float: left;
+}
+#loginfrm #login p
+{
+    padding-bottom: 10px;
+}
+.textbox
+{
+    width: 150px;
+}
+.textcode
+{
+    width: 80px;
+}
+/*error.htm页面设置*/
+#errorfrm #error img
+{
+    width: 230px;
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+#errorfrm #error p
+{
+    margin: 20px;
+}
+#errorfrm #error p span
+{color:#00f;
+ font-size:16px;
+ font-weight :bold ;}

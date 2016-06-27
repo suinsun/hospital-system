@@ -1,0 +1,41 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="common.master.cs" Inherits="common" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>首页-牛腩新闻发布系统</title>
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+      <div id="top">
+        <a href="Default.aspx">
+            <img src="images/mainlogo.jpg" /></a>
+        <a href ="http://www.tg029.com" target="_blank" >
+            <img src="images/tylogo.jpg" /> </a>
+    </div>
+    <div id="search">
+        搜索条件：
+        <asp:RadioButton ID="RadioTitle" GroupName="cond" runat="server" Text="  标题" Checked="true" />
+        <asp:RadioButton ID="RadioContent" GroupName="cond" runat="server" Text="  内容" />
+        <asp:TextBox ID="TextKey" runat="server"></asp:TextBox>
+        <asp:ImageButton ID="ibtnSearch" ImageUrl="~/images/搜索.jpg" runat="server" />
+    </div>
+    <div id="main">
+ <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <div id="footer">
+        版权所有 &copy;<a href="http://niunan.javaeve.com" target="_blank">酥梨</a> &amp;<a href="http://www.tg029.com"
+            target="_blank">众志网 </a>
+    </div>
+    <div>
+        
+    </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,226 @@
+﻿*
+{
+    /*把默认值都设为0*/
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+body
+{
+    font-size: 14px;
+}
+/*设置超链接的默认值*/
+a:link, a:visited
+{
+    /*鼠标未移上去的超链接样式*/ /*超链接访问后的样式*/
+    color: #000;
+    text-decoration: none;
+}
+a:hover
+{
+    /*鼠标移到超链接上的样式*/
+    color: #00f;
+    text-decoration: underline;
+}
+
+#top, #search, #main, #footer
+{
+    margin: 10px auto 10px auto;
+    width: 760px;
+}
+#top
+{
+    /*顶部样式*/
+    height: 120px;
+}
+#top img
+{
+    /*顶部图片浮动*/
+    float: left;
+    border-width: 0;
+}
+#search
+{
+    /*搜索样式*/
+    clear: left;
+}
+#main
+{
+    /*可变内容区域样式*/
+}
+#footer
+{
+    /*尾部样式*/
+    text-align: center;
+    border-top: 1px solid #D6D7D6;
+    padding-top: 10px;
+    clear: left;
+}
+#TextKey
+{
+    /*搜索关键字文本框样式*/
+    border: 1px solid #000;
+    background-color: #C7EDCC;
+    line-height: 22px;
+    width: 450px;
+    height: 22px;
+    font-size: 16px;
+}
+input
+{
+    vertical-align: middle;
+}
+ul, li
+{
+    list-style-type: none;
+}
+li
+{
+    text-align: center;
+    margin: 20px;
+}
+li a:link a:visited
+{
+    /*分类名称样式*/
+    color: #00f;
+    text-decoration: underline;
+    font-weight: bold;
+}
+li a:hover
+{
+    color: #f00;
+}
+.commonfrm
+{
+    /*框架公共样式*/
+    border: 1px solid #DEDFDE;
+    float: left;
+    width: 560px;
+}
+.commonfrm h4
+{
+    /*框架标题样式*/
+    color: #fff;
+    background-color: #7BAEEF;
+    padding: 3px 10px;
+}
+.commonfrm table
+{
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse; /*细线表格*/
+}
+.commonfrm table th, .commonfrm table td
+{
+    padding: 5px;
+}
+.commonfrm .th_category
+{
+    width: 100px;
+}
+.commonfrm .th_time
+{
+    width: 150px;
+}
+.commonfrm .td_category
+{
+    color: #C0C0C4;
+}
+.commonfrm .td_time
+{
+    color: #C0C0C4;
+    font-size: 12px;
+}
+#category
+{
+    /*新闻分类框架*/
+    width: 180px;
+    margin-right: 5px;
+    height: 383px;
+}
+#newnews
+{
+    /*最新新闻框架*/
+    margin-left: 5px;
+    margin-bottom: 10px;
+}
+#hotnews
+{
+    /*热点新闻框架*/
+    margin-left: 5px;
+    margin-bottom: 20px;
+}
+#newslist
+{
+    margin-left: 10px;
+}
+#searchres
+{
+    width: 760px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+#newscontent, #newreplay
+{
+    /*新闻内容框架*/
+    width: 760px;
+    margin-bottom: 10px;
+}
+#newscontent p, .replay p
+{
+    margin: 20px;
+}
+#newscontent .con
+{
+    text-indent: 2em; /*让段落首行缩进两个字符*/
+    line-height: 20px; /*行间距*/
+}
+#newscontent .con_time, .replay .replay_info
+{
+    float: right;
+    font-size: 12px;
+    color: #888;
+}
+#newscontent a:link, #newscontent a:visited
+{
+    background-color: #EFF7FF;
+    border: 1px solid #428EFF;
+    width: 70px;
+    height: 25px;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+    margin-left: 20px;
+    color: #0059ed;
+    text-decoration: none;
+}
+.replay
+{
+    margin-bottom :10px;}
+.replay hr
+{
+    width: 650px;
+    clear: right;
+    margin-left: auto;
+    margin-right: auto;
+}
+.addcomment
+{
+    /*发表评论内容*/
+    width: 760px;
+    margin-bottom: 10px;
+text-align :center ;
+border:1px solid #d6d7d6;
+background-color :#F7F7F7;
+clear:both ;
+    }
+    .addcomment   .comment_con
+    {
+        width:600px;
+        height:250px;
+        margin-bottom :5px;
+        margin-top :5px !important;
+        *margin-top:10px !important;/*仅ie识别*/
+        }
+        .addcomment .txtcode{width:50px;}
